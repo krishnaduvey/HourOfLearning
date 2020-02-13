@@ -21,7 +21,6 @@ namespace UnitTestProjectForAssignmentOne
             try
             {
                 //To create report directory and add HTML report into it
-
                 _extent = new ExtentReports();
                 var dir = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug", "");
                 DirectoryInfo di = Directory.CreateDirectory(dir + "\\Test_Execution_Reports");
