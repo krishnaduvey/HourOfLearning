@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>ChapterFiveObjectOriented</RootNamespace>
     <AssemblyName>ChapterFiveObjectOriented</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ChapterFiveObjectOriented.&lt;invalid-global-code&gt;</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
