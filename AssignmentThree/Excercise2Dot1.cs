@@ -45,6 +45,55 @@ namespace AssignmentThree
          */
 
 
+        public static void FizzBuzzProblem() {
+
+            int number=int.Parse(Console.ReadLine());
+
+            bool divisibleByThree=isNumberDivisibleByThree(number);
+            bool divisibleByFive = isNumberDivisibleByFive(number);
+            
+           if (divisibleByThree && divisibleByFive)
+                Console.WriteLine("FizzBuzz");
+           else if (divisibleByThree)
+                Console.WriteLine("Fizz");
+           else if (divisibleByFive)
+                Console.WriteLine("Buzz");
+ 
+
+        }
+
+        public static bool isNumberDivisibleByThree(int number) {
+            return true;
+        }
+
+        public static bool isNumberDivisibleByFive(int number)
+        {
+            return true;
+        }
+
 
     }
 }
+
+
+/*
+ * ref
+ * in
+ * out
+ * checked/unchecked
+ * OverflowException 
+ * INFERRING TUPLE NAMES
+ * enum
+ * partial
+ * properties and indexer
+ */
+
+/*
+Note:
+1. static( Shared with all ) vs const( Not modifiable and its compile time constant ) vs readonly( run time constant as like blank final variable in java) c#
+2. The idea of Enum Flags is to take an enumeration variable and allow it hold multiple values. It should be used whenever the enum represents a collection of flags, 
+rather than representing a single value. Such enumeration collections are usually manipulated using bitwise operators.
+3.
+
+
+*/

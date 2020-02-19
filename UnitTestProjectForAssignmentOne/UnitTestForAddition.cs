@@ -56,7 +56,7 @@ namespace UnitTestProjectForAssignmentOne
         {
             var sum = Addition.AdditionOfTwoNumbers(15, 10);
             Console.WriteLine(sum);
-            NUnit.Framework.Assert.AreEqual(25, sum);
+            Assert.AreEqual(25, sum);
         }
 
         [Test]
@@ -64,7 +64,7 @@ namespace UnitTestProjectForAssignmentOne
         {
             var sum = Addition.AdditionOfTwoNumbers(10, 10);
             Console.WriteLine(sum);
-            NUnit.Framework.Assert.AreEqual(25, sum);
+            Assert.AreEqual(25, sum);
         }
 
        [Test]
