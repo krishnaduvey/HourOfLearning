@@ -47,7 +47,7 @@ namespace ChapterFiveObjectOriented
             }
         }
 
-    }
+    
 
     public enum WondersOfTheAncientWorld
         {
@@ -86,20 +86,7 @@ namespace ChapterFiveObjectOriented
         static void Main(string[] args)
         {
 
-            FavoriteAncientWonder
-
-
-FavoriteAncientWonder.StatueOfZeusAtOlympia;
-
-            WriteLine(format:
-
-            "{0}'s favorite wonder is {1}. It's integer is {2}.",
-
-            arg0: bob.Name,
-
-            arg1: bob.FavoriteAncientWonder,
-            arg2: (int)bob.FavoriteAncientWonder);
-
+      
             new Program().Method4();
             new Program().Method3();
             new Program().Method2();
@@ -108,17 +95,123 @@ FavoriteAncientWonder.StatueOfZeusAtOlympia;
         }
     }
 
-    class Program2 {
+    class Program2  {
         public void methodCalls() {
             new Program().Method1();
             new Program().Method4();
             // new Program().Method3();
             //new Program().Method2();
+
+            Program prog = new Program();
+            
+        }
+        public static void fetchDetails()
+        {
+            AccessModifier accObj = new AccessModifier();
+            //accObj.
+            var x = accObj.privateVariable;
+            var y = accObj.ProtectedFunction();
+            var z = accObj.InternalFunction();
+
+
         }
 
-       
+
 
     }
+
+
+
+    /*
+ * 
+ *  Access Modifiers
+ * 
+ */
+
+    public class AccessModifier
+    {
+        /// <summary>
+        /// Available only to the container Class
+        /// </summary>    
+        private string privateVariable;
+
+        /// <summary>
+        /// Available in entire assembly across the classes 
+        /// </summary>
+        internal string internalVariable;
+
+        /// <summary>
+        /// Available in the container class and the derived class 
+        /// </summary>    
+        protected string protectedVariable;
+
+        /// <summary>
+        /// Available to the container class, entire assembly and to outside    
+        /// </summary>
+        public string publicVariable;
+
+        /// <summary>
+        /// Available to the derived class and entire assembly as well
+        /// </summary>
+        protected internal string protectedInternalVariable;
+
+        /// <summary>
+        /// Not accessible out side the class
+        /// </summary>
+        /// <returns></returns>
+        private string PrivateFunction()
+        {
+            return privateVariable;
+        }
+        /// <summary>
+        /// Not accessible out side the class
+        /// </summary>
+        /// <returns></returns>
+        internal string InternalFunction()
+        {
+            return internalVariable;
+        }
+
+        /// <summary>
+        /// Not accessible outside the namespace
+        /// </summary>
+        /// <returns></returns>
+        protected string ProtectedFunction()
+        {
+            return protectedVariable;
+        }
+
+        /// <summary>
+        /// Accessible
+        /// </summary>
+        /// <returns></returns>
+        public string PublicFunction()
+        {
+            return publicVariable;
+        }
+
+        /// <summary>
+        /// Accesible within assembly
+        /// </summary>
+        /// <returns>string as output</returns>
+        protected internal string ProtectedInternalFunction()
+        {
+            return protectedInternalVariable;
+        }
+
+
+        public static void fetchDetails()
+        {
+            AccessModifier accObj = new AccessModifier();
+            //accObj.
+            var x = accObj.privateVariable;
+            var y = accObj.ProtectedFunction();
+            var z = accObj.InternalFunction();
+
+
+        }
+    }
+
 
 
 }
@@ -137,9 +230,39 @@ namespace ExternalNameSpace {
             //new Program().Method2();
         }
 
+        public static void fetchDetails()
+        {
+            AccessModifier accObj = new AccessModifier();
+            //accObj.
+           // var x = accObj.privateVariable;
+            //var y = accObj.ProtectedFunction();
+            var z = accObj.InternalFunction();
+
+
+        }
     }
 
+
+    class TestAccessModifier
+    {
+
+        public static void fetchDetails()
+        {
+            AccessModifier accObj = new AccessModifier();
+            //accObj.
+            var x=accObj.protectedInternalVariable;
+            
+
+        }
+    }
+
+
 }
+
+
+
+
+
 
 
 //Within NameSpace we can not access protected and private members.

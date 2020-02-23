@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1DACF2E4-EB2A-447E-A191-5F6B65150CDC}</ProjectGuid>
+    <ProjectGuid>{A0F18584-470B-41C7-807B-05448EEB51DD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Excercise</RootNamespace>
-    <AssemblyName>Excercise</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>DataBaseLayer</RootNamespace>
+    <AssemblyName>DataBaseLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,22 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chapter2.cs" />
-    <Compile Include="Chapter3.cs" />
-    <Compile Include="Chapter4.cs" />
-    <Compile Include="Chapter5.cs" />
-    <Compile Include="Chapter6.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ChapterFiveObjectOriented\ChapterFiveObjectOriented.csproj">
-      <Project>{969925a6-20ff-46d0-bd70-395a76ae32cf}</Project>
-      <Name>ChapterFiveObjectOriented</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

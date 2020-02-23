@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="CollectionsInfo.cs" />
     <Compile Include="DelegateInfo.cs" />
+    <Compile Include="LambdaInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

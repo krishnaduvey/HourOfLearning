@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Excercise
+namespace DataBaseLayer
 {
-    class Chapter5
+    class Program
     {
-
+        static void Main(string[] args)
+        {
+        }
     }
 }
