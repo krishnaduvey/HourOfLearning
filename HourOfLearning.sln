@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedCSharp", "AdvancedC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseLayer", "DataBaseLayer\DataBaseLayer.csproj", "{A0F18584-470B-41C7-807B-05448EEB51DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyBuilder", "SurveyBuilder\SurveyBuilder.csproj", "{2373E4C6-1003-4D80-9758-94BB33A15CD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A0F18584-470B-41C7-807B-05448EEB51DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0F18584-470B-41C7-807B-05448EEB51DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0F18584-470B-41C7-807B-05448EEB51DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2373E4C6-1003-4D80-9758-94BB33A15CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2373E4C6-1003-4D80-9758-94BB33A15CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2373E4C6-1003-4D80-9758-94BB33A15CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2373E4C6-1003-4D80-9758-94BB33A15CD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
