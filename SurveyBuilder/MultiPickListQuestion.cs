@@ -51,4 +51,7 @@ namespace SurveyBuilder
             return new MultiPicklistAnswer { Options = selectedOptions, Question = this, Points = selectedOptions.Sum(op => op.Points) };
         }
     }
+
+
+
 }

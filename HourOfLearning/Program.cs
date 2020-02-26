@@ -24,3 +24,7 @@ namespace HourOfLearning
         }
     }
 }
+
+// Csharp tutorials
+//https://jonskeet.uk/csharp/parameters.html
+//https://csharpindepth.com/Articles/PropertiesMatter
