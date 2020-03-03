@@ -60,5 +60,13 @@
       <Name>ChapterFiveObjectOriented</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SchedulerSharpe\Scheduler.cs" />
+    <Compile Include="SchedulerSharpe\StartUp.cs" />
+    <Compile Include="SchedulerSharpe\TimerController.cs" />
+    <Content Include="Scheduler\Scheduler.java" />
+    <Content Include="Scheduler\StartUp.java" />
+    <Content Include="Scheduler\TimerController.java" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
